@@ -1,0 +1,64 @@
+.auth {
+  width: 100%;
+  max-width: 30rem;
+  border-radius: 6px;
+  background-color: #b9936c;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin: 3rem auto;
+  text-align: center;
+  color: white;
+}
+
+.auth h1 {
+  text-align: center;
+  color: #8e5115;
+}
+.control{
+  margin: 1rem 0 0 0;
+}
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  color: #8e5115;
+  background-color: #e6e2d3;
+  border-radius: 4px #dac292;
+  border-color: #dac292;
+  padding: 0.5rem 2.5rem;
+}
+.file {
+  width: max-content;
+  margin: 1rem auto;
+  background-color: #e6e2d3;
+}
+.auth label{
+  color: #8e5115;
+}
+.file:hover, .file label:hover {
+  background-color: #ae9b8a;
+  cursor: pointer;
+}
+.actions button:hover {
+  border-radius: 4px;
+  background-color: #b9936c;
+  border-color: #dac292;
+}
+.actions button:disabled,
+.actions button:disabled:hover,
+.actions button:disabled:active {
+  background-color: #c4b7a6;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  color: #8e5115;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: #c4b7a6;
+}

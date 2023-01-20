@@ -1,0 +1,45 @@
+.form {
+  width: 70%;
+  margin: 1rem auto;
+  border-radius: 6px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  
+}
+.form:hover {
+  box-shadow: 0 20px 28px rgba(0, 0, 0, 0.2);
+
+}
+.file {
+  margin: 1rem;
+  width: max-content;
+}
+.file label {
+  cursor: pointer;
+ 
+  color: #b9936c;
+  color: black;
+}
+.file:hover{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.error {
+  color: red;
+  font-size: 1rem;
+  text-align: center;
+}
+.button {
+  border-radius: 6px;
+  border: 1px solid;
+  padding: 1rem 1rem;
+}
+.invalid {
+  border-radius: 6px;
+  border: 1px solid;
+  padding: 1rem 1rem;
+  cursor: not-allowed;
+}
+.invalid:hover {
+  color: red;
+  background-color: transparent;
+}

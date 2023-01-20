@@ -1,0 +1,7 @@
+.profile {
+  display:flex;
+}
+.profileInfo {
+  width: 25%;
+  margin: 0 1.5rem;
+}

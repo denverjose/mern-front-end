@@ -1,0 +1,29 @@
+.profile {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  width: fit-content;
+}
+.name {
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.edit {
+  cursor: pointer;
+  display: flex;
+  padding: 0.5rem;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.edit:hover {
+  box-shadow: inset 0 12px 14px rgba(0, 0, 0, 0.2);
+}
+.container {
+  margin: 1rem 0 0 0;
+}
+.username {
+  margin: 0 0 1rem 0;
+  font-style: italic;
+}
