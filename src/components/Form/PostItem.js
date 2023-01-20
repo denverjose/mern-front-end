@@ -8,7 +8,7 @@ const PostItem = (props) => {
     <p>
       {props.description.slice(0, 400)} . . .
       <Link className={classes.detail} to={"/" + props.id}>
-        <button>See more</button>
+        <button onClick={props.cb}>See more</button>
       </Link>
     </p>
   );
@@ -34,7 +34,7 @@ const PostItem = (props) => {
         <span>
           {`Posted by: `}
           <span>
-            <Link className={classes.aa} to={`/profile/${props.userId}`}>{props.fullname}</Link>
+            <Link onClick={props.cb} className={classes.aa} to={`/profile/${props.userId}`}>{props.fullname}</Link>
           </span>
           {` on ${date}`}
         </span>

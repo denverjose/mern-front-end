@@ -2,6 +2,7 @@ import { useContext } from "react";
 import {NavLink, Link } from "react-router-dom";
 import AuthContext from "../../store/auth-context";
 import classes from "./MainNavigation.module.css";
+import SearchBar from "../Search/SearchBar";
 
 const MainNavigation = () => {
   const authCtx = useContext(AuthContext);
@@ -14,9 +15,13 @@ const MainNavigation = () => {
 
   return (
     <header className={classes.header}>
+      <div className={classes.container}>
+
       <Link to="/">
-        <div className={classes.logo}>GLOB</div>
+        <div className={classes.logo}>GOLB</div>
       </Link>
+      <SearchBar/>
+      </div>
       <nav>
         {isLoggedIn && (
           <ul className="nav">

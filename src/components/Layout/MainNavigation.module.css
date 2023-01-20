@@ -8,9 +8,14 @@
   align-items: center;
   padding: 4rem 8%;
 }
+.container{
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+}
 .logo {
   font-family: "Lato", sans-serif;
-  font-size: 2rem;
+  font-size: 4rem;
   color: #e8e2c4;
   margin: 0;
 }
