@@ -20,7 +20,7 @@ const MainNavigation = () => {
       <Link to="/">
         <div className={classes.logo}>GOLB</div>
       </Link>
-      <SearchBar/>
+      {isLoggedIn && <SearchBar />}
       </div>
       <nav>
         {isLoggedIn && (
