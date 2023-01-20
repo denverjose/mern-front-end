@@ -271,6 +271,5 @@ export async function searchBlog(requestData) {
     };
     loadeadBlogs.push(blogObj);
   }
-  console.log(loadeadBlogs);
   return loadeadBlogs;
 }
