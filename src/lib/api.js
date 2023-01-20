@@ -1,5 +1,5 @@
-const LOCALHOST_DOMAIN = "http://localhost:8080";
-// const LOCALHOST_DOMAIN = "https://mern-backend-cpbj.onrender.com";
+// const LOCALHOST_DOMAIN = "http://localhost:8080";
+const LOCALHOST_DOMAIN = "https://mern-backend-cpbj.onrender.com";
 
 export async function signup(userData) {
   const response = await fetch(`${LOCALHOST_DOMAIN}/auth/signup`, {
